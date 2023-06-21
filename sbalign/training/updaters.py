@@ -91,6 +91,9 @@ def get_optimizer(model, optim_name: str = 'adamw', lr: float = 0.001, weight_de
     if optim_name == "adamw":
         optimizer = optim.AdamW(params=filter(lambda p: p.requires_grad, model.parameters()), 
                               lr=lr, weight_decay=weight_decay)
+    elif optim_name == "adam":
+        optimizer = optim.Adam(params=filter(lambda p: p.requires_grad, model.parameters()),
+                              lr=lr, weight_decay=weight_decay)
     else:
         raise ValueError(f"Optimizer of type {optim_name} is not supported.")
 
