@@ -1,0 +1,1 @@
+{"timestep_emb_dim": 128, "n_layers": 3, "in_dim": 50, "out_dim": 50, "h_dim": 128, "activation": "silu", "dropout_p": 0.1}

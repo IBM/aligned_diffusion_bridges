@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+.vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+*.DS_Store
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+/playgrounds*
+/logs*
+/results*
+/*.csv
+
+# Processing related
+local_tests/
+dummy_data/
+inference/
+dump*
+sb_align/data/
+*.pdb;
