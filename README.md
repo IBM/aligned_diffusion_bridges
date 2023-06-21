@@ -61,7 +61,7 @@ For this task, we use the `D3PM` dataset, (`data/raw/d3pm` and `data/processed/d
 The file with PDB IDs of ligand-free and ligand-bound structures can be downloaded from [here](http://www.d3pharma.com/D3PM/overall_apo_com.php).
 Rename this file to `d3pm.xlsx` and place under `data/raw/d3pm`.
 
-The structures corresponding to PDB IDs can be downloaded by following the instructions on the [here](https://www.rcsb.org/downloads)
+The structures corresponding to PDB IDs can be downloaded by following the instructions on the [here](https://www.rcsb.org/downloads).
 For this task, we downloaded the `.cif` files, which were saved to `data/raw/d3pm/conformations`
 
 ##### Dataset Preparation
@@ -134,7 +134,7 @@ python scripts/docking/train.py --config ${PATH_TO_CONFIG}.yml
 
 ## License
 
-<Include LICENSE file>
+This project is licensed under the MIT-License. Please see [LICENSE.md](https://github.com/IBM/aligned_diffusion_bridges/blob/main/LICENSE.md) for more details.
 
 ## Reference
 
